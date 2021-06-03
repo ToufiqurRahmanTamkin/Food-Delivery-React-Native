@@ -220,7 +220,6 @@ const OrderDelivery = ({ route, navigation }) => {
               marginRight: SIZES.padding
             }}
           />
-
           <View style={{ flex: 1 }}>
             <Text style={{ ...FONTS.body3 }}>{streetName}</Text>
           </View>
@@ -230,7 +229,6 @@ const OrderDelivery = ({ route, navigation }) => {
       </View>
     )
   }
-
   function renderDeliveryInfo() {
     return (
       <View
@@ -280,7 +278,6 @@ const OrderDelivery = ({ route, navigation }) => {
               <Text style={{ color: COLORS.darkgray, ...FONTS.body4 }}>{restaurant?.name}</Text>
             </View>
           </View>
-
           {/* Buttons */}
           <View
             style={{
@@ -323,7 +320,6 @@ const OrderDelivery = ({ route, navigation }) => {
       </View>
     )
   }
-
   function renderButtons() {
     return (
       <View
@@ -350,7 +346,6 @@ const OrderDelivery = ({ route, navigation }) => {
         >
           <Text style={{ ...FONTS.body1 }}>+</Text>
         </TouchableOpacity>
-
         {/* Zoom Out */}
         <TouchableOpacity
           style={{
@@ -366,7 +361,6 @@ const OrderDelivery = ({ route, navigation }) => {
           <Text style={{ ...FONTS.body1 }}>-</Text>
         </TouchableOpacity>
       </View>
-
     )
   }
 
@@ -379,5 +373,4 @@ const OrderDelivery = ({ route, navigation }) => {
     </View>
   )
 }
-
 export default OrderDelivery;
