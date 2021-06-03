@@ -24,30 +24,7 @@ export const star = require('../assets/icons/star.png');
 export const sushi = require('../assets/icons/sushi.png');
 export const user = require('../assets/icons/user.png');
 
-export default {
-  back,
-  car,
-  cutlery,
-  donut,
-  drink,
-  fire,
-  fries,
-  hamburger,
-  hotdog,
-  like,
-  list,
-  location,
-  master_card,
-  nearby,
-  noodle,
-  pin,
-  pizza,
-  red_pin,
-  rice_bowl,
-  salad,
-  search,
-  basket,
-  star,
-  sushi,
-  user,
+export default { back, car, cutlery, donut, drink, fire, fries, hamburger,
+  hotdog, like, list, location, master_card, nearby, noodle, pin, pizza,
+  red_pin, rice_bowl, salad, search, basket, star, sushi, user,
 };
